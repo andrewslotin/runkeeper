@@ -4,7 +4,6 @@ class Runkeeper
     include HTTParty
     base_uri "http://api.runkeeper.com"
     format :json
-    debug_output
 
     ACCEPT_HEADERS = {
       :user => "application/vnd.com.runkeeper.User+json",
